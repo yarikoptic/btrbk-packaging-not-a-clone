@@ -1,3 +1,10 @@
+btrbk (0.19.3-2) unstable; urgency=medium
+
+  * Fix lintian issues (systemd-service-file-outside-lib,
+    script-not-executable, package-contains-timestamped-gzip)
+
+ -- Axel Burri <axel@tty0.ch>  Mon, 13 Jul 2015 22:54:08 +0200
+
 btrbk (0.19.3-1) unstable; urgency=medium
 
   * New upstream release.
