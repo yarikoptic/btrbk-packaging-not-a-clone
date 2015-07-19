@@ -47,3 +47,11 @@ if everythin went fine, create a tag:
 ```
 git tag debian/0.19.3-1 -m 'btrbk Debian release 0.19.3-1'
 ```
+
+
+### Step 4: cleanup
+
+```
+git clean -d -f
+git checkout -- .
+```
